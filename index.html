@@ -1,178 +1,120 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Règlement Discord</title>
-  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Règlement Serveur</title>
   <style>
     body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #f0f0f0;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      display: flex;
-      min-height: 100vh;
-      background-color: #f5f5f7;
-      color: #333;
-    }
-
-    nav {
-      width: 250px;
-      background: #fff;
       padding: 20px;
-      box-shadow: 2px 0 5px rgba(0,0,0,0.05);
-      position: sticky;
-      top: 0;
-      height: 100vh;
-      overflow-y: auto;
+      line-height: 1.6;
     }
-
-    nav h1 {
-      font-size: 1.5em;
-      color: #5865F2;
-      margin-bottom: 20px;
+    h1, h2 {
+      color: #00bfff;
     }
-
-    nav a {
-      display: block;
-      color: #5865F2;
-      text-decoration: none;
-      margin: 8px 0;
-      padding: 8px;
-      border-radius: 6px;
-    }
-
-    nav a:hover {
-      background: #f0f0ff;
-    }
-
-    main {
-      flex-grow: 1;
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    section {
+    h1 {
+      text-align: center;
       margin-bottom: 40px;
     }
-
-    section h2 {
-      border-bottom: 2px solid #5865F2;
-      padding-bottom: 5px;
-      color: #5865F2;
+    h2 {
+      margin-top: 40px;
     }
-
-    button {
-      display: block;
-      background-color: #5865F2;
-      color: white;
-      border: none;
-      padding: 15px 25px;
-      font-size: 16px;
-      cursor: pointer;
-      border-radius: 6px;
-      margin-top: 30px;
+    ul {
+      padding-left: 20px;
     }
-
-    button:hover {
-      background-color: #4752c4;
+    li::marker {
+      color: #ff4c4c;
     }
-
-    footer {
-      text-align: center;
-      margin-top: 60px;
-      color: #888;
+    .section {
+      background-color: #1a1a1a;
+      border-left: 5px solid #00bfff;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
     }
-
-    @media (max-width: 768px) {
-      body {
-        flex-direction: column;
-      }
-
-      nav {
-        width: 100%;
-        height: auto;
-        position: relative;
-        box-shadow: none;
-        border-bottom: 1px solid #ccc;
-      }
-
-      main {
-        padding: 20px;
-      }
+    blockquote {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #2e2e2e;
+      border-left: 4px solid #ffaa00;
+      font-style: italic;
     }
   </style>
 </head>
 <body>
-  <nav>
-    <h1>📜 Règlement</h1>
-    <a href="#respect">1. Respect</a>
-    <a href="#contenu">2. Contenu interdit</a>
-    <a href="#pub">3. Spam & Pub</a>
-    <a href="#perso">4. Données perso</a>
-    <a href="#salons">5. Utilisation des salons</a>
-    <a href="#propos">6. Propos déplacés</a>
-    <a href="#modos">7. Modération</a>
-    <a href="#maj">8. Mises à jour</a>
-    <a href="#sanctions">🚨 Sanctions</a>
-    <a href="#acceptation">✅ Acceptation</a>
-  </nav>
+  <h1>📜 Règlement du Serveur</h1>
 
-  <main>
-    <section id="respect">
-      <h2>1. Respect</h2>
-      <p>Toute forme de harcèlement, d’intimidation ou de discours haineux est strictement interdite.</p>
-    </section>
+  <div class="section">
+    <h2>🖥️ Graphismes & Packs</h2>
+    <p>Les modifications du jeu sont strictement interdites, notamment :</p>
+    <ul>
+      <li>Suppression ou modification de props, éléments, eau, buissons, etc.</li>
+      <li>Utilisation de viseurs externes (crosshair)</li>
+      <li>Effets de mort personnalisés (kill effects)</li>
+      <li>Tracer (trajectoires de tir)</li>
+      <li>Effets de sang (blood effects)</li>
+      <li>Effets de coups portés (hit effects)</li>
+      <li>Modification de la FOV (champ de vision)</li>
+      <li>Fichiers modifiés avantageusement (ex : full stamina)</li>
+    </ul>
+    <blockquote>
+      🎯 Ces pratiques sont interdites car elles nuisent à l'équité. Toute infraction pourra entraîner des sanctions. Merci de respecter ces règles pour garantir une expérience de jeu équilibrée à tous.
+    </blockquote>
+  </div>
 
-    <section id="contenu">
-      <h2>2. Contenu interdit</h2>
-      <p>Les contenus illégaux ou inappropriés (textes, images, vidéos, liens...) sont interdits.</p>
-    </section>
+  <div class="section">
+    <h2>💰 Remboursements</h2>
+    <p>Aucun remboursement ne sera effectué dans les cas suivants :</p>
+    <ul>
+      <li>Perte de biens lors d’un redémarrage serveur</li>
+      <li>Erreurs de virement entre joueurs</li>
+      <li>Perte de biens illégaux après coma ou crash</li>
+      <li>Inactivité prolongée (non-relocation de maison)</li>
+      <li>Vols ou trahisons par des joueurs à qui vous avez donné accès</li>
+      <li>Vols dans les coffres de véhicules (hors vol d'armes)</li>
+    </ul>
+    <blockquote>
+      📌 Toute demande doit être justifiée avec preuve. Nous nous réservons le droit de refuser selon les circonstances.
+    </blockquote>
+  </div>
 
-    <section id="pub">
-      <h2>3. Spam & Publicité</h2>
-      <p>Pas de spam ou de publicité sans autorisation, même en messages privés.</p>
-    </section>
+  <div class="section">
+    <h2>📹 Streamers</h2>
+    <p>Le streaming est autorisé, mais certaines règles s’appliquent :</p>
+    <p><strong>⛔ Interdit :</strong></p>
+    <ul>
+      <li>Trash-talk</li>
+      <li>Lire ou utiliser les infos de son chat (meta)</li>
+      <li>Streamer les interventions admin (son et image coupés)</li>
+      <li>Dénigrer le serveur ou ses membres</li>
+    </ul>
+  </div>
 
-    <section id="perso">
-      <h2>4. Données personnelles</h2>
-      <p>Ne partagez jamais les informations personnelles d’autrui sans leur accord explicite.</p>
-    </section>
+  <div class="section">
+    <h2>🙍 Wipe Personnage</h2>
+    <h3>🔄 Qu’est-ce qu’un wipe ?</h3>
+    <p>Un wipe efface entièrement votre personnage (argent, biens, etc.) et vous oblige à recommencer une nouvelle histoire RP.</p>
 
-    <section id="salons">
-      <h2>5. Utilisation des salons</h2>
-      <p>Respectez les thématiques des salons. Évitez les hors-sujets ou conversations déplacées.</p>
-    </section>
+    <h3>☠️ Mort RP</h3>
+    <p>Une Mort RP validée peut entraîner un wipe. Elle peut être provoquée par :</p>
+    <ul>
+      <li>Un dossier RP construit</li>
+      <li>Un manque de peur RP</li>
+      <li>Abus de tirs ou blessures</li>
+      <li>Expulsion d'une organisation</li>
+    </ul>
 
-    <section id="propos">
-      <h2>6. Propos déplacés</h2>
-      <p>Aucune tolérance pour les propos racistes, sexistes, homophobes, transphobes ou insultants.</p>
-    </section>
-
-    <section id="modos">
-      <h2>7. Modération</h2>
-      <p>Les décisions des modérateurs sont à respecter. Pour toute contestation, contactez un administrateur.</p>
-    </section>
-
-    <section id="maj">
-      <h2>8. Mises à jour</h2>
-      <p>Le règlement peut être modifié. Tenez-vous informé des changements.</p>
-    </section>
-
-    <section id="sanctions">
-      <h2>🚨 Sanctions</h2>
-      <p>Selon la gravité de l'infraction, vous pouvez recevoir un avertissement ou être banni.</p>
-    </section>
-
-    <section id="acceptation">
-      <h2>✅ Acceptation</h2>
-      <p>En utilisant ce serveur, vous acceptez ce règlement.</p>
-      <button onclick="window.location.href='https://discord.com/invite/tonserveur'">J'ai lu et j'accepte</button>
-    </section>
-
-    <footer>
-      <p>© 2025 Ton Serveur Discord – Merci pour le respect des règles 🎉</p>
-    </footer>
-  </main>
+    <h3>⛔ Interdictions</h3>
+    <ul>
+      <li>Aucun transfert de biens entre personnages/joueurs</li>
+      <li>Pas de wipe si dettes ou procédures judiciaires en cours</li>
+      <li>Interdit de changer totalement de voie (police ➜ illégal) sans wipe</li>
+      <li>Pas de lien entre un nouveau personnage et l’ancien</li>
+    </ul>
+  </div>
 </body>
 </html>
